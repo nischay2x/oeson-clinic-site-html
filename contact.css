@@ -1,0 +1,74 @@
+main {
+    font-family: 'Raleway', sans-serif;
+}
+
+section.map-hold div.wrapper{
+    background: rgba(255, 255, 255, 0.4);
+}
+
+section.map-hold .map-wrap{
+    position: relative;
+    background-image: url('./images/map.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.map-hold .map-wrap .open-map{
+    padding: 2rem 1rem;
+    background: var(--primary);
+    color: #fff !important;
+    width: fit-content;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    transition: 0.3s ease;
+}
+section.map-hold .map-wrap .open-map:hover{
+    background: var(--primary-light);
+}
+a:hover{
+    text-decoration: none;
+}
+
+div.contact-card{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+}
+div.glass{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+#contact-form label{
+    font-weight: 600;
+}
+
+div.contact-card .form-control-m{
+    width: 100%;
+    padding: 1rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: var(--primary-light);
+}
+
+a.contact-links{
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+a.contact-links:hover{
+    color: var(--primary-light) !important;
+}
+
+a.logo-link:hover{
+    color: var(--primary-light) !important;
+}

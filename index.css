@@ -1,0 +1,91 @@
+section.hero{
+    width: 100%;
+    padding-top: 10vh;
+    min-height: 100vh;
+    background : linear-gradient(133.99deg, #CBF4E7 5.78%, rgba(203, 244, 231, 0) 53.59%);
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+div.leaf-outer{
+    margin: 0 auto;
+    height: 25rem;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: relative;
+}
+div.leaf-inner{
+    width: 95%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 95%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+div.facility-icon{
+    border-radius: 10px;
+    width: 5rem;
+    height: 5rem;
+    background: #CBF3E5;
+}
+
+
+.stat-cell h1{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-weight: 700;
+    font-size: 3.7rem;
+    letter-spacing: -3px;
+}
+.stat-cell .card-body{
+    border-radius: 20px;
+    background: #FFFFFF;
+    transition: all 0.2s ease;
+}
+.stat-cell .card-body:hover{
+    box-shadow: 0px 26px 60px rgba(206, 239, 228, 0.63);
+}
+
+#testimonial-carousel .carousel-cell .bg-white{
+    padding-left: 1.5rem;
+    padding-top: 2.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 20px;
+}
+#testimonial-carousel .flickity-prev-next-button{
+    top: 120%;
+    background: transparent;
+    border-radius: 20%;
+    border: 2px solid black;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+#testimonial-carousel .flickity-prev-next-button.next{
+    right: 25%;
+}
+#testimonial-carousel .flickity-prev-next-button.previous{
+    left: 25%;
+}
+
+div.tips-hold{
+    transform: translateY(5rem);
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    div.stats-hold{
+        flex-direction: column-reverse;
+    }    
+}
+
+@media (max-width: 992px){
+    
+}
+@media (min-width: 992px){
+    
+}

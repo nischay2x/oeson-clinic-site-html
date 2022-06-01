@@ -1,0 +1,33 @@
+main section.hero {
+  background: linear-gradient(to top, #fff, #cbf3e5);
+  padding-top: 7rem;
+  padding-bottom: 15rem;
+}
+
+section.carousel-hold {
+  background: linear-gradient(
+    172.46deg,
+    #cbf4e7 23.25%,
+    rgba(203, 244, 231, 0) 100%
+  );
+  border-radius: 0px;
+  transform: skewY(-0.8deg);
+  margin-bottom: 5%;
+}
+body.logoLink {
+  max-width: 5rem;
+}
+.herotext {
+  max-width: 500px;
+}
+.subherotext {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.herohighlightedtext {
+  font-weight: 600;
+}
+.card-bg {
+  background-color: #00231f;
+  color: #ffffff;
+}

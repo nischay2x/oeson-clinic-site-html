@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+main {
+  background: #1b4332;
+  box-sizing: border-box;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-image: url("./images/hospital_bed.png ");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section {
+  background-color: rgba(27, 67, 50, 0.3);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.hero-section-overlay {
+  border: 3px solid #ffffff;
+  padding: 3%;
+  margin: 0 auto;
+  /* height: 660px; */
+}
+.hero-section-content {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  color: #ffffff;
+  /* height: inherit; */
+}
+.nav-custom {
+  list-style-type: none;
+  position: relative;
+  top: 0%;
+}
+.nav-items {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.001em;
+  color: #00231f !important;
+  transition: all 0.2s ease;
+}
+.nav-items:hover {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.002em;
+  margin-left: 5%;
+  color: #ffffff !important;
+  transform: scale(1.1);
+}
+.social {
+  text-align: center;
+  margin-top: 70%;
+}
+.social-icons {
+  margin-inline: 2%;
+}
+.description-heading {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 50px;
+  text-align: left;
+  letter-spacing: 0.0035em;
+  top: 0%;
+}
+.description {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.001em;
+  margin-top: 10%;
+}
+
+.awards-number {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 112px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  margin-top: 30%;
+}
+
+.date-para {
+  margin-top: 65%;
+  text-align: left !important;
+}
+.date {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+  letter-spacing: 0.0015em;
+}
+.author {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: left;
+  letter-spacing: 0.0025em;
+}
+
+.page-para {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57%;
+  margin-bottom: 0%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+}
+.pgno {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: bottom;
+  letter-spacing: 0.0015em;
+}
+.line {
+  height: 2px;
+  background-color: #ffffff;
+  border: none;
+  width: 90%;
+  border-radius: 1%;
+}
+a.hospital-phone {
+  text-decoration: none;
+  color: #6ab99e !important;
+}
+a.hospital-phone:hover {
+  color: #017e3f !important;
+}

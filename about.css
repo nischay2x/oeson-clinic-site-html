@@ -1,0 +1,168 @@
+section.hero{
+    background-image: url("./images/hospital_front.png");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+section.hero > div.w-100{
+    background: linear-gradient(to right, #fff, #fff, rgba(98, 255, 208, 0.39));
+}
+
+div.sub-hero{
+    transform: translateY(-4rem);
+    border-radius: 5px;
+    box-shadow: 0px 27px 36px rgba(0, 0, 0, 0.07);
+}
+
+div.sub-hero .redirects{
+    background: #E0F0EB;
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid transparent;
+}
+div.sub-hero .redirects:hover{
+    transform: translateZ(-5px) scale(1.02);
+    box-shadow: 0px 28px 42px rgba(123, 209, 181, 0.45);
+    border-color: var(--primary-light);
+}
+
+div.empty-buttons{
+    border-radius: 5px;
+    background: #CBF4E7;
+    transition: all 0.3s ease;
+    color: #6AB99E;
+    position: relative;
+}
+
+div.empty-buttons:hover{
+    background: #6AB99E;
+    box-shadow: 0px 22px 30px #ADF2DA;
+    color: #fff;
+}
+
+div.empty-buttons .text{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 1rem;
+}
+
+div.mission-carousel-hold .carousel{
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+div.mission-carousel-hold .carousel .carousel-cell{
+    padding-bottom: 3rem;
+}
+div.mission-carousel-hold .carousel-cell > div{
+    margin: 0 auto;
+    box-shadow: 0px 28px 72px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+}
+
+div.mission-carousel-hold .flickity-prev-next-button{
+    background: transparent;
+    top: 110%;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+div.mission-carousel-hold .flickity-prev-next-button.next{
+    right: 20%;
+}
+div.mission-carousel-hold .flickity-prev-next-button.previous{
+    left: 20%;
+}
+div.mission-carousel-hold .flickity-page-dots .dot{
+    width: 20px;
+    border-radius: 25px;
+    transition: all 0.2s ease;
+}
+
+div.hospital-carousel-hold .hospital-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+div.hospital-carousel-hold .hospital-buttons a.btn{
+    background: #E0F0EB;
+    color: #6AB99E;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 15rem;
+}
+
+div.hospital-carousel-hold .hospital-buttons a.btn.dark{
+    background: #017e3f;
+    color: white !important;
+}
+
+div.hospital-carousel-hold .flickity-prev-next-button{
+    top: 30%;
+}
+
+a.hospital-phone{
+    text-decoration: none;
+    color: #6AB99E !important;
+}
+a.hospital-phone:hover{
+    color: #017e3f !important;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    section.hero > div.w-100{
+        background: linear-gradient(to right, #fff, rgba(98, 255, 208, 0.39));
+    }   
+    div.empty-buttons{
+        height: 10vh;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    div.empty-buttons{
+        height: 12vh;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    div.empty-buttons{
+        height: 15vh;
+    }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    div.empty-buttons{
+        height: 15vh;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    div.empty-buttons{
+        height: 17vh;
+    }
+}
+
+@media (max-width: 992px){
+    div.sub-hero{
+        gap: 0.5rem;
+    }
+    div.hospital-carousel-hold .hospital-buttons {
+        align-items: center;
+    }
+}
+@media (min-width: 992px){
+    div.hospital-carousel-hold .hospital-buttons {
+        align-items: flex-end;
+    }
+}

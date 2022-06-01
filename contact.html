@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Clinic">
+    <meta name="location" content="Indore, MP">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/95105048e2.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&family=Sawarabi+Gothic:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- flickity-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!-- local-css -->
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Doctor</title>
+  </head>
+  <body>
+
+    <header id="main-header">
+        <nav class="navbar navbar-expand-lg">
+            <a href="#" class="navbar-brand" style="max-width: 5rem;">
+                <span>LOGO</span>
+            </a>
+            <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars"></i>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav justify-content-center w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./awards.html">Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./guidelines.html" class="nav-link">General Guidelines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./careers.html" class="nav-link">Careers</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="./contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="py-4 bg-white">
+            <div class="pt-3 text-center" style="margin-top: 4rem;">
+                <h1 style="font-weight: 600;">GET IN TOUCH</h1>
+                <p>Just drop us a line. we will be glad to answer your queries.</p>
+            </div>
+        </section>
+        <section class="map-hold bg-warning">
+            <div class="wrapper h-100 w-100">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="col-12 col-sm-10 col-md-5 col-lg-4 col-xl-4 map-wrap">
+                        <a href="#" class="open-map text-center">
+                            Open Map
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-10 col-md-7 col-lg-6 col-xl-5">
+                        <div class="card-body contact-card">
+                            <div class="hero">
+                                <h2 style="font-weight: 600;">Get in Touch</h2>
+                                <p style="color: var(--primary-light);">Fill up the form our team will get back to you within 24 Hours.</p>
+                            </div>
+                            <div>
+                                <form method="post" id="contact-form">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Full Name</label>
+                                        <input type="text" name="name" required placeholder="Enter Your Full Name" class="form-control-m">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="mobile" class="form-label">Mobile Number</label>
+                                        <input type="tel" name="mobile" required placeholder="Enter Your Mobile Number" class="form-control-m">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" name="email" required placeholder="Enter Your Email Here" class="form-control-m">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <input type="text" name="subject" required placeholder="Enter a Subject" class="form-control-m">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea name="message" required placeholder="Enter a Message or Suggestion" rows="4" class="form-control-m"></textarea>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <button class="btn btn-dark" type="submit">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <div class="container-fluid">
+                        <div class="card-body glass mx-4" style="border-radius: 20px;">
+                            <div class="text-center">
+                                <h1 style="font-weight: 600;">Let's talk with us</h1>
+                            </div>
+                            <br>
+                            <div class="py-3 d-flex flex-column mx-auto" style="gap: 1rem; width: fit-content;">
+                                <a href="#" class="contact-links">
+                                    <i class="fas fa-home mr-2"></i> Address Here
+                                </a>
+                                <a href="mailto:xyz@gmail.com" class="contact-links">
+                                    <i class="fas fa-envelope mr-2"></i> xyz@gmail.com
+                                </a>
+                                <a href="tel:+816264225165" class="contact-links">
+                                    <i class="fas fa-phone-alt mr-2"></i> +91 - 6264225164
+                                </a>
+                            </div>
+                            <br>
+                            <div class="py-2">
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="p-3 logo-link">
+                                        <i class="fa fa-facebook fa-lg"></i>
+                                    </a>
+                                    <a href="#" class="p-3 logo-link">
+                                        <i class="fa fa-instagram fa-lg"></i>
+                                    </a>
+                                    <a href="#" class="p-3 logo-link">
+                                        <i class="fa fa-twitter fa-lg"></i>
+                                    </a>
+                                    <a href="#" class="p-3 logo-link">
+                                        <i class="fa fa-linkedin fa-lg"></i>
+                                    </a>
+                                    <a href="#" class="p-3 logo-link">
+                                        <i class="fa fa-youtube fa-lg"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-4" style="background: linear-gradient(180deg, #0A3124 0%, #0C4532 100%);">
+        <div class="w-100 pt-4 pb-2 mt-4">
+            <div class="container d-flex flex-wrap justify-content-around">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-4 col-xl-3 footer-sections">
+                    <div class="text-white">
+                        <h1>LOGO</h1>
+                        <br>
+                        <div class="d-flex flex-column" style="gap: 1rem;">
+                            <a href="#">
+                                <span class="mr-3"><i class="fas fa-home"></i></span> Address Here
+                            </a>
+                            <a href="mailto:xyz@gmail.com">
+                                <span class="mr-3"><i class="fas fa-envelope"></i></span> xyz@gmail.com
+                            </a>
+                            <a href="tel:+916264225177">
+                                <span class="mr-3"><i class="fas fa-phone-alt"></i></span> +91-6264225177
+                            </a>
+                        </div>
+                        <br><br>
+                        <div class="d-flex social-links-hold" style="gap: 1rem;">
+                            <a href="#" class="social-links">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-links">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-links">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-links">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-links">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-sections no-small">
+                    <div class="text-white">
+                        <h4>Menu</h4>
+                        <br>
+                        <div class="d-flex flex-column site-link-hold" style="gap: 1rem;">
+                            <a href="#">Work</a>
+                            <a href="#">About</a>
+                            <a href="#">Schedule</a>
+                            <a href="#">Blog</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-sections">
+                    <div class="text-white">
+                        <h4 class="s-text-capital">Useful Links</h4>
+                        <br>
+                        <div class="d-flex flex-column site-link-hold" style="gap: 1rem;">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Cookie Policy</a>
+                            <a href="#">Purchasing Policy</a>
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Career</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-4 col-xl-3 footer-sections">
+                    <div class="text-white">
+                        <h4 class="s-text-capital">Contact Us</h4>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            <input type="email" class="contact-input-text rounded" style="background: #E7FFF7;" placeholder="Email">
+                            <div>
+                                <button class="btn contact-input-btn px-2 py-1 ml-1 text-white">
+                                    <i class="far fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </footer>
+    <script src="./global.js" defer></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
